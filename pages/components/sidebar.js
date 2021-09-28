@@ -217,7 +217,9 @@ export default function PersistentDrawerLeft() {
 					{data.map((e) => {
 						return (
 							<>
-								<h5 className="text-center"> {e.headerData.title}</h5>
+								<ListItem button>
+									<h5> {e.headerData.title}</h5>
+								</ListItem>
 								{e.headerData.DATAS.map((a, i) => (
 									<ListItem button key={i}>
 										<ListItemText primary={a} />
