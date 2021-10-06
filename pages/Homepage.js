@@ -1,12 +1,7 @@
 import React from "react";
-import PersistentDrawerLeft from "./components/sidebar";
 
 function Homepage() {
-	return (
-		<div className="main">
-			<PersistentDrawerLeft />
-		</div>
-	);
+	return <div>i am homepage</div>;
 }
 
 export default Homepage;
